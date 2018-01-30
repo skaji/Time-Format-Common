@@ -6,7 +6,9 @@ Time::Format::Common - Blah blah blah
 
 # SYNOPSIS
 
-    use Time::Format::Common;
+    use Time::Format::Common 'iso8601';
+
+    print iso8601(); #=> 2018-01-31T02:27:52+09:00
 
 # DESCRIPTION
 
